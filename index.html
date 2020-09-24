@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Floating label menu with bootstrap</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <br>
+
+          <div class="form-group">
+            <input type="text" placeholder="Your Full Name"  class="form-control" id="usr">
+            <label for="usr">Name</label>
+          </div>
+
+          <div class="form-group">
+            <input type="text" class="form-control" id="usr">
+            <label for="usr">Without Placeholder</label>
+          </div>
+
+          <div class="form-group">
+            <textarea type="text" class="form-control" id="textarea"></textarea>
+            <label for="textarea">Textarea</label>
+            <p class="help-block">Without placeholder & Input has no required attribute</p>
+          </div>
+
+          <div class="form-group">
+            <input type="text" placeholder="Nick Name" class="form-control" id="usr" required>
+            <label for="usr">Nick Name</label>
+            <p class="help-block">Input has required attribute</p>
+          </div>
+      
+          <div class="form-group">
+            <select class="form-control" id="blood">
+                <option value="">Select Option</option>
+                <option value="A">A</option>
+                <option value="A">B</option>
+                <option value="A">C</option>
+            </select>
+            <label for="blood">Blood Group</label>
+          </div>
+
+
+          <div class="form-group has-error">
+            <input type="text" class="form-control" placeholder="Email Address" id="email" required="">
+            <label for="email">Email</label>
+            <p class="help-block">Form has-error class</p>
+          </div>
+
+          <div class="form-group"> 
+            <input type="file" class="form-control" id="exampleInputFile">
+            <label for="exampleInputFile">File input</label>
+            <p class="help-block">Example block-level help text here.</p>
+          </div>
+     
+
+            <div class="form-group"> 
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" value="">
+                    Option one is this and that&mdash;be sure to include why it's great
+                  </label>
+                </div>
+                <div class="checkbox disabled">
+                  <label>
+                    <input type="checkbox" value="" disabled>
+                    Option two is disabled
+                  </label>
+                </div>
+            </div>
+
+            <div class="form-group"> 
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                    Option one is this and that&mdash;be sure to include why it's great
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                    Option two can be something else and selecting it will deselect option one
+                  </label>
+                </div>
+                <div class="radio disabled">
+                  <label>
+                    <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+                    Option three is disabled
+                  </label>
+                </div>
+            </div>
+     
+            <div class="btn-group">
+                <button type="submit" class="btn thm-btn form-btn">Submit</button>
+            </div>
+        </div>
+      </div>
+    </div> 
+  </body>
+</html>
