@@ -1,3 +1,8 @@
+/*
+| FLOATING LABEL FORM
+----------------------------------------------
+*/
+
 .form-group{margin:40px 0px 25px 0px}
 .form-group>label {visibility:hidden;float:left;bottom: 36px;left: 12px;position: relative;background-color: white;padding: 0px 5px 0px 5px;transition: 0.2s;pointer-events: none;}
 .form-control{border-radius:0;height:50px!important;font-size:16px;line-height:30px}
